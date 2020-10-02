@@ -6,7 +6,7 @@
  *
  * Return: Pointer to the changed string.
  */
-char *cap_string(char *str)
+char *cap_string(char *)
 {
 	int index = 0;
 
