@@ -4,12 +4,13 @@
 #include <stdlib.h>
 
 /**
- * struct list_s - Singly linked list.
- * @str: String.
- * @len: Length of the string.
- * @next: Pointer to the next node.
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node
  *
- * Description: Singly linked list.
+ * Description: singly linked list node structure
+ * for Holberton project
  */
 typedef struct list_s
 {
